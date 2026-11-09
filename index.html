@@ -135,6 +135,9 @@ a{color:inherit}
 /* play toggle on the right edge */
 .chh .chm.chm-play{display:grid!important;justify-items:end;text-align:right;justify-self:stretch;width:100%;justify-content:stretch!important}
 .chm-play>div{justify-items:end}
+/* keep long drink names on one line */
+@media (min-width:1001px){#soju-mixes{grid-column:span 2}}
+@media (min-width:681px){.blk .nm{white-space:nowrap}}
 /* signature cards */
 .sgrid{grid-template-columns:repeat(7,minmax(0,1fr));margin-bottom:48px}
 .sph{padding:8px 8px 0}
