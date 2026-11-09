@@ -136,10 +136,15 @@ a{color:inherit}
 .chh .chm.chm-play{display:grid!important;justify-items:end;text-align:right;justify-self:stretch;width:100%;justify-content:stretch!important}
 .chm-play>div{justify-items:end}
 /* signature cards */
-.sgrid{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:48px}
-.sph{padding:10px 10px 0}
+.sgrid{grid-template-columns:repeat(7,minmax(0,1fr));margin-bottom:48px}
+.sph{padding:8px 8px 0}
 .sph .tint{aspect-ratio:4/5}
-@media (max-width:1000px){.sgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sgrid .wt{padding:8px 10px 10px}
+.sgrid .wt h4{font-size:11px}
+.sgrid .tag{font-size:9px}
+.sgrid .wp{padding:8px 10px;font-size:11px}
+@media (max-width:1100px){.sgrid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:600px){.sgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 /* desserts */
 .dgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
 .dph{aspect-ratio:1;overflow:hidden;padding:10px 10px 0}
